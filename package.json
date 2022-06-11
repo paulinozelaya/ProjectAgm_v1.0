@@ -1,5 +1,4 @@
 {
-  "homepage": "https://paulinozelaya.github.io/videotutorial",
   "name": "videotutorial",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +16,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://proyectoagm.000webhostapp.com",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
