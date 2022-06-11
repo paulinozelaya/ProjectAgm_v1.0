@@ -7,23 +7,23 @@ export const Navbar = () => {
     const { logout , user} = useAuth0();
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand" href="/">
                 <img src={logo} width="30" height="30" alt=""/>
             </a>
-                <a class="navbar-brand" href="/">Video Tutorial</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a className="navbar-brand" href="/">Video Tutorial</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item nav-link text-muted"><Link to="/">Home</Link></li>
-                    <li class="nav-item nav-link text-muted"><Link to="/image">Image</Link></li>
-                    <li class="nav-item nav-link text-muted"><Link to="/video">Video</Link></li>
-                    <li class="nav-item nav-link text-muted"><Link to="/music">Music</Link></li>
-                    <li class="nav-item nav-link text-muted"><Link to="/contact">Contact</Link></li>
-                    <li class="nav-item"><button type="button" class="btn btn-primary" onClick={() => logout({ returnTo: window.location.origin })}>Log out</button></li>
-                    <li><a class="disabled text-white"><img src={user.picture} width="30" height="30"/>{user.name}</a></li>
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul className="navbar-nav">
+                    <li><Link className="nav-item nav-link" to="/">Home</Link></li>
+                    <li><Link className="nav-item nav-link" to="/image">Image</Link></li>
+                    <li><Link className="nav-item nav-link" to="/video">Video</Link></li>
+                    <li><Link className="nav-item nav-link" to="/music">Music</Link></li>
+                    <li><Link className="nav-item nav-link" to="/contact">Contact</Link></li>
+                    <li className="nav-item"><button type="button" class="btn btn-primary" onClick={() => logout({ returnTo: window.location.origin })}>Log out</button></li>
+                    <li><a className="disabled text-white"><img src={user.picture} width="30" height="30"/>{user.name}</a></li>
 
                         {/* <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a> */}
                     {/* <li class="nav-item">
