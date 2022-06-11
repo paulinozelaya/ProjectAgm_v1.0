@@ -18,7 +18,7 @@ export const Image = () => {
     return (  
         <section>
         <div className="row" style={{paddingLeft:"15%",marginTop:"18px"}}>
-        {loading && <p style={{padding:"0 350px",marginTop:"160px"}}><img src={require('../image/progress.gif')} width={250} height={250}/></p>}
+        {loading && <p style={{padding:"0 350px",marginTop:"160px"}}><img src={require('../assets/image/progress.gif')} width={250} height={250}/></p>}
         {!!data && data.length > 0 ? data.map((product) => {
             return(
                 <div class="card" style={{width: "18rem",marginLeft:"2%"}}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../image/logo.webp'
+import logo from '../assets/image/logo.webp'
 import { useAuth0 } from '@auth0/auth0-react';
 import { Link } from 'react-router-dom'
 
@@ -17,11 +17,13 @@ export const Navbar = () => {
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                    <li class="nav-item nav-link"><Link to="/">Home</Link></li>
-                    <li class="nav-item nav-link"><Link to="/image">Image</Link></li>
-                    <li class="nav-item nav-link"><Link to="/video">Video</Link></li>
-                    <li class="nav-item nav-link"><Link to="/music">Music</Link></li>
-                    <li class="nav-item nav-link"><Link to="/contact">Contact</Link></li>
+                    <li class="nav-item"><Link to="/">Home</Link></li>
+                    <li class="nav-item"><Link to="/image">Image</Link></li>
+                    <li class="nav-item"><Link to="/video">Video</Link></li>
+                    <li class="nav-item"><Link to="/music">Music</Link></li>
+                    <li class="nav-item"><Link to="/contact">Contact</Link></li>
+                    <li class="nav-item"><button type="button" class="btn btn-primary" onClick={() => logout({ returnTo: window.location.origin })}>Log out</button></li>
+                    <li><a class="disabled text-white"><img src={user.picture} width="30" height="30"/>{user.name}</a></li>
 
                         {/* <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a> */}
                     {/* <li class="nav-item">

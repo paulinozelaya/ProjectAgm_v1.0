@@ -8,7 +8,7 @@ export const Music = () => {
                 <h3>  Audio 1
                     <p>
                         <Reproductor
-                        src={require('../music/comedia.wav')}
+                        src={require('../assets/music/comedia.wav')}
                         controls
                         />
                     </p>
@@ -17,7 +17,7 @@ export const Music = () => {
                     <h3>  Audio 2
                         <p>
                             <Reproductor
-                            src={require('../music/comedia.wav')}
+                            src={require('../assets/music/comedia.wav')}
                             controls
                             />
                         </p>
