@@ -1,0 +1,16 @@
+{
+    "video":[
+        {
+            "title":"Video 1",
+            "url": "https://www.youtube.com/embed/ZvAWe1zBUzI"
+        },
+        {
+            "title":"Video 2",
+            "url": "https://www.youtube.com/embed/EMk6nom1aS4"
+        },
+        {
+            "title":"Video 3",
+            "url": "https://www.youtube.com/embed/6Jfk8ic3KVk"
+        }
+    ]
+}
