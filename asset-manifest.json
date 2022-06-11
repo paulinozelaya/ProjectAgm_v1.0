@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/videotutorial/static/js/main.7d0dff1a.js",
+    "main.js": "/videotutorial/static/js/main.3b601fee.js",
     "static/media/comedia.wav": "/videotutorial/static/media/comedia.2f8000a47c3b9c1702ad.wav",
     "static/media/progress.gif": "/videotutorial/static/media/progress.54c2c076731defff2b0e.gif",
     "static/media/logo.webp": "/videotutorial/static/media/logo.f39ba627cc4e665e85b8.webp",
     "index.html": "/videotutorial/index.html",
-    "main.7d0dff1a.js.map": "/videotutorial/static/js/main.7d0dff1a.js.map"
+    "main.3b601fee.js.map": "/videotutorial/static/js/main.3b601fee.js.map"
   },
   "entrypoints": [
-    "static/js/main.7d0dff1a.js"
+    "static/js/main.3b601fee.js"
   ]
 }
